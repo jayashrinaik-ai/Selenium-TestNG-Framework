@@ -5,5 +5,5 @@
     <classes>
       <class name="testLayer.LoginPageTestUsingDataProvider"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test    -->  
 </suite> <!-- Suite -->
