@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-11T17:12:25 IST" name="Suite" finished-at="2025-09-11T17:12:45 IST" duration-ms="19556">
+    <groups>
+    </groups>
+    <test started-at="2025-09-11T17:12:25 IST" name="LoginTest" finished-at="2025-09-11T17:12:45 IST" duration-ms="19556">
+      <class name="testLayer.LoginPageTestUsingDataProvider">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testLayer.LoginPageTestUsingDataProvider@53142455]" started-at="2025-09-11T17:12:25 IST" name="setUp" finished-at="2025-09-11T17:12:42 IST" duration-ms="17005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://devops.evolutionco.in/nextgen/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testLayer.LoginPageTestUsingDataProvider@53142455]" started-at="2025-09-11T17:12:43 IST" name="verifyLogin" data-provider="loginData" finished-at="2025-09-11T17:12:43 IST" duration-ms="514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dixit.shah@evolutionco.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testLayer.LoginPageTestUsingDataProvider@53142455]" started-at="2025-09-11T17:12:43 IST" name="verifyLogin" data-provider="loginData" finished-at="2025-09-11T17:12:44 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tavu@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testLayer.LoginPageTestUsingDataProvider@53142455]" started-at="2025-09-11T17:12:44 IST" name="tearDown" finished-at="2025-09-11T17:12:45 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testLayer.LoginPageTestUsingDataProvider -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
